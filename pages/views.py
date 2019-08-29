@@ -16,3 +16,5 @@ def detail_view(request, page_id):
 		"page": Page.objects.get(id=page_id),
 	}
 	return render(request,'detail.html',context)
+
+	
